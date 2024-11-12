@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
-
+#include <nordic/nrf52840_qiaa.dtsi>
 / {
     chosen{
         zephyr,code-partition = &code_partition;
