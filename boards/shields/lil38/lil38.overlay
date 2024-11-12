@@ -46,5 +46,5 @@
             , <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
-    }
+    };
 }
