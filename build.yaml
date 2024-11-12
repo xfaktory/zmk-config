@@ -18,6 +18,6 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano_v1
     shield: lil38
-    snippet: studio-rpc-usb-uart
+#    snippet: studio-rpc-usb-uart
