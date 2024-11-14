@@ -2,7 +2,7 @@
 #include "lil38-layout.dtsi"
 
 &physical_layout_0 {
-    transform = <&matrix_transform0>;
+    transform = <&default_transform>;
     kscan = <&default_kscan>;
 };
 
