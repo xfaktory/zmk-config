@@ -45,5 +45,4 @@ keys  //                     w   h    x    y     rot    rx    ry
             , <&key_physical_attrs 100 100  925  300       0     0     0>
             ;
     };
-    };
 };
