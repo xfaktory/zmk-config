@@ -11,7 +11,7 @@
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
         zmk,battery = &vbatt;
-        zmk,kscan = <&default_kscan>;
+        zmk,kscan = &default_kscan;
         zmk,physical-layout = &physical_layout_0;
     };
 
