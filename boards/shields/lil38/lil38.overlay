@@ -12,7 +12,7 @@
 
     &physical_layout_0 {
         transform = <&matrix_transform0>;
-        kscan = <&default_kscan>
+        kscan = <&default_kscan>;
     };
 
     default_transform: matrix_transform {
