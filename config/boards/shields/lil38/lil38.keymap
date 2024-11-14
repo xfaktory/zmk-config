@@ -1,0 +1,89 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+        combos {
+        compatible = "zmk,combos";
+            combo_esc {
+                timeout-ms = <100>;
+                key-positions = <0 1>;
+                bindings = <&kp ESC>;
+            };
+            combo_backspace {
+                timeout-ms = <100>;
+                key-positions = <8 9>;
+                bindings = <&kp BSPC>;
+            };
+            combo_tab {
+                timeout-ms = <100>;
+                key-positions = <10 11>;
+                bindings = <&kp TAB>;
+            };
+            combo_semic {
+                timeout-ms = <100>;
+                key-positions = <18 19>;
+                bindings = <&kp SEMI>;
+            };
+            combo_tilda {
+                timeout-ms = <100>;
+                key-positions = <0 10>;
+                bindings = <&kp GRAVE>;
+            };
+            combo_slash {
+                timeout-ms = <100>;
+                key-positions = <0 10>;
+                bindings = <&kp SLASH>;
+            };
+        };
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp Q       &kp W    &kp E      &kp R    &kp T      &kp Y       &kp U       &kp I       &kp O       &kp P
+                &kp A       &kp S    &kp D      &kp F    &kp G      &kp H       &kp J       &kp K       &kp L       &kp RET    
+                &kp Z       &kp X    &kp C      &kp V    &kp B      &kp N       &kp M       &kp LT      &kp GT
+                &kp LCTRL    &kp LGUI &kp LALT   &mo 1    &kp SPACE    &mo 2       &kp RALT    &kp RGUI    &kp RCTRL
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &trans     &trans
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &trans     &trans
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &trans     
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &studio_unlock      
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &trans     &trans
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &trans     &trans
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &trans     
+                &trans      &trans   &trans     &trans   &trans     &trans      &trans      &trans      &bootloader     
+            >;
+        };
+
+        extra_1{
+            status = "reserved";
+        };
+
+        extra_2{
+            status = "reserved";
+        };
+
+        extra_3{
+            status = "reserved";
+        };
+
+        extra_4{
+            status = "reserved";
+        };
+
+        extra_5{
+            status = "reserved";
+        };
+
+    };
+ };
