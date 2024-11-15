@@ -14,7 +14,7 @@
             combo_unlock {
                 timeout-ms = <100>;
                 key-positions = <6 17 18>;
-                bindings = <&kp combo_unlock>;
+                bindings = <&studio_unlock>;
             };
 
             combo_esc {
