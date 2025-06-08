@@ -25,15 +25,10 @@
 
             combo_unlock {
                 timeout-ms = <100>;
-                key-positions = <8 21 22>;
+                key-positions = <7 20 21>;
                 bindings = <&studio_unlock>;
             };
 
-            combo_unlock {
-                timeout-ms = <100>;
-                key-positions = <8 21 22>;
-                bindings = <&studio_unlock>;
-            };
 
             combo_lang {
                 timeout-ms = <100>;

@@ -50,7 +50,7 @@ keys  //                     w   h    x    y     rot    rx    ry
             , <&key_physical_attrs 150 100  650  300       0     0     0>
             , <&key_physical_attrs 150 100  800  300       0     0     0>
             , <&key_physical_attrs 125 100  950  300       0     0     0>
-            , <&key_physical_attrs 125 100  1175 300       0     0     0>
+            , <&key_physical_attrs 125 100  1075 300       0     0     0>
             ;
     };
 };
