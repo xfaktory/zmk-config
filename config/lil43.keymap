@@ -32,7 +32,7 @@
 
             combo_lang {
                 timeout-ms = <100>;
-                key-positions = <24 37>
+                key-positions = <24 37>;
                 binding = <&lang>;
             };
         };
