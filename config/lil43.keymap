@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+
         macros {
             lang: lang {
                 compatible = "zmk,behavior-macro";
